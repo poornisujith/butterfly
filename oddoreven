@@ -1,12 +1,12 @@
-#include<stdio.h>
+#include<iostream.h>
 #include<conio.h>
 void main()
 {
 int a;
-scanf("%d",&a);
+cin>>a;
 if(a%2==0)
-printf("even");
+cout<<"even";
 else
-printf("odd");
+cout<<"odd";
 getch();
 }
